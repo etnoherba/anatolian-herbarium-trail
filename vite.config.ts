@@ -12,7 +12,11 @@ export default defineConfig({
     },
   },
   vite: {
-    base: "/anatolian-herbarium-trail/",
+    server: {
+      host: "0.0.0.0",
+      port: 3000,
+      allowedHosts: true,
+    },
     plugins: [nitro({ preset: "node-server" })],
   },
 });

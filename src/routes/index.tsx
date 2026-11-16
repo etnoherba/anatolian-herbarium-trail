@@ -14,9 +14,17 @@ export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
       { title: "Etnoherba - Türkiye Etnobotanik Haritası" },
-      { name: "description", content: "Türkiye'nin 7 coğrafi bölgesindeki endemik ve özel bitkileri interaktif harita ile keşfedin." },
+      {
+        name: "description",
+        content:
+          "Türkiye'nin 7 coğrafi bölgesindeki endemik ve özel bitkileri interaktif harita ile keşfedin.",
+      },
       { property: "og:title", content: "Etnoherba - Türkiye Etnobotanik Haritası" },
-      { property: "og:description", content: "Türkiye'nin 7 coğrafi bölgesindeki endemik ve özel bitkileri interaktif harita ile keşfedin." },
+      {
+        property: "og:description",
+        content:
+          "Türkiye'nin 7 coğrafi bölgesindeki endemik ve özel bitkileri interaktif harita ile keşfedin.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
