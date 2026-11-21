@@ -1,14 +1,12 @@
-# Anatolian Herbarium Trail
+# Anatolian Herb Atlas
 
-Merhaba. Bizim etnoherba projemizde Türkiye'nin bitkilerini tanıtıyoruz. Bunun için inceleyebileceğin bir site tasarladık ve düzeltmen gereken kısımlardan bahsedicem. Bu düzeltmen gereken kısımları sadece düzelticeksin ve hiçbir diğer feature ı değiştirmeyeceksin tamam mı? Sadece egeliştiricez. İlk once yarattıgı bu attıgım resimdeki acemi haritayı 2. attıgım resimdekinin AYNISI ile değiştir ve özelliklerini ekle yani tıkladııgnda bölgeye girsin kendin ayır sınırları. Yazıları efektli yap yani scroll down yaptıgında scroll triggered animation olsun. Site ise herbology ile ilgili olduğundan backgroundu ona uygun efektli yap. Çok koyu olmasın abartma resmi bir site olucak ama scroll efektlerini profesyonel sitelerdeki gibi ayarla ve haritayı düzelt.
+Imported website: https://etnoherba.github.io/anatolian-herbarium-trail/
 
 This project was built with [Lovable](https://lovable.dev).
 
-**Live app**: https://anatolian-herbarium-trail.lovable.app
-
 ## Build with Lovable
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/07e8997f-2a69-471d-a74f-731ad5ca7c3c).
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/80e0b3af-9484-44da-bfd7-36f3039411fb).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
 - **Stay in sync**: every change made in Lovable is committed straight to this repository.

@@ -153,3 +153,76 @@
     color: var(--color-foreground);
   }
 }
+
+/* site-import tokens: begin (generated; re-import replaces this block) */
+/* Imported clone roles use prefixed Tailwind utilities
+   (bg-site-import-primary, text-site-import-foreground, …); edit the
+   --site-import-* variables to restyle the clone. Unprefixed roles theme new UI. */
+:root {
+  --background: oklch(0.95815 0 0);
+  --site-import-background: oklch(0.95815 0 0);
+  --foreground: oklch(0 0 0);
+  --site-import-foreground: oklch(0 0 0);
+  --primary: oklch(0.59666 0.12047 250.22);
+  --site-import-primary: oklch(0.59666 0.12047 250.22);
+  --primary-foreground: oklch(0.985 0 0);
+  --site-import-primary-foreground: oklch(0.985 0 0);
+}
+/* Design tokens captured from the imported site, registered as Tailwind
+   utilities (bg-<name>, text-<name>, font-<name>). var() values live in
+   the imported stylesheet's :root. */
+@theme inline {
+  --font-sans: "Nunito", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --color-site-import-background: var(--site-import-background);
+  --color-site-import-foreground: var(--site-import-foreground);
+  --color-site-import-primary: var(--site-import-primary);
+  --color-site-import-primary-foreground: var(--site-import-primary-foreground);
+}
+/* site-import tokens: end */
+
+/* Interactive import controls use the captured site's palette. */
+:root { --herb-paper: oklch(1 0 0); --herb-ink: oklch(.25 .04 165); --herb-soft: oklch(.97 .014 165); --herb-line: oklch(.9 .015 165); --herb-green: oklch(.52 .12 165); --herb-muted: oklch(.5 .025 240); --herb-warm: oklch(.96 .03 80); --herb-shadow: 0 12px 30px oklch(.2 .03 165 / .16); }
+.search-panel { position:absolute; top:100%; margin-top:8px; width:100%; max-height:68vh; overflow:auto; background:var(--herb-paper); color:var(--herb-ink); border:1px solid var(--herb-line); border-radius:16px; box-shadow:var(--herb-shadow); z-index:60; }
+.search-caption { padding:12px; font-size:11px; font-weight:700; }
+.search-item { display:flex; flex-direction:column; align-items:flex-start; width:100%; padding:12px 16px; text-align:left; border-bottom:1px solid var(--herb-line); }
+.search-item:hover,.province-button:hover,.drawer-plant:hover { background:var(--herb-soft); }
+.search-item i,.search-item small { font-size:12px; color:var(--herb-muted); }
+.region-intro { background:var(--herb-soft); border:1px solid var(--herb-line); padding:16px; border-radius:16px; font-size:12px; color:var(--herb-ink); }
+.region-intro p { margin-bottom:8px; }
+.region-counts,.province-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:8px; margin:12px 0; }
+.region-counts div { text-align:center; background:var(--herb-paper); padding:10px; border-radius:12px; }
+.region-counts div:last-child { background:var(--herb-warm); }
+.region-counts b { display:block; font-size:20px; }.region-counts small { font-size:10px; display:block; }
+.region-intro h4 { font-size:11px; font-weight:700; margin-top:12px; }
+.province-button { display:flex; justify-content:space-between; align-items:center; gap:4px; background:var(--herb-paper); border:1px solid var(--herb-line); padding:8px; border-radius:10px; text-align:left; font-size:11px; }.province-button small { font-size:9px; }
+.drawer-list { display:flex; flex-direction:column; gap:10px; }
+.drawer-plant { display:flex; width:100%; align-items:center; gap:12px; background:var(--herb-soft); border:1px solid var(--herb-line); border-radius:16px; padding:12px; text-align:left; }.drawer-plant span { flex:1; min-width:0; }.drawer-plant b { font-family:'Cinzel',serif; font-size:12px; display:block; }.drawer-plant small { display:block; color:var(--herb-green); font-size:10px; margin:5px 0; }.drawer-plant em { font-size:11px; color:var(--herb-muted); }
+.gallery-stage { aspect-ratio:16/10; position:relative; border-radius:16px; overflow:hidden; background:var(--herb-soft); }.gallery-stage img { width:100%; height:100%; object-fit:cover; }.gallery-prev,.gallery-next { position:absolute; top:50%; transform:translateY(-50%); width:40px; height:40px; border-radius:50%; background:var(--herb-paper); color:var(--herb-ink); }.gallery-prev { left:12px; }.gallery-next { right:12px; }.gallery-count { position:absolute; right:12px; top:12px; background:var(--herb-ink); color:var(--herb-paper); padding:4px 10px; border-radius:20px; font-size:11px; }.gallery-thumbs { display:flex; gap:12px; overflow:auto; margin:12px 0; }.gallery-thumbs img { width:100px; height:65px; object-fit:cover; border-radius:8px; }.gallery-credit { color:var(--herb-muted); font-size:11px; }
+.plant-qr { padding:12px; background:var(--herb-paper); border:4px solid var(--herb-green); border-radius:16px; }.qr-image { display:block; margin:auto; shape-rendering:crispEdges; }.qr-paper { fill:var(--herb-paper); }.qr-ink { fill:var(--herb-ink); }.qr-filters { display:flex; flex-wrap:wrap; gap:8px; margin-bottom:24px; }.qr-filter { padding:6px 12px; border-radius:12px; background:var(--herb-soft); color:var(--herb-ink); font-size:12px; font-weight:600; }.qr-filter.selected { background:var(--herb-ink); color:var(--herb-paper); }.qr-grid { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:16px; }.qr-card { padding:16px; text-align:center; border:1px solid var(--herb-line); border-radius:16px; background:var(--herb-paper); }.qr-card b,.qr-card i,.qr-card small { display:block; margin-top:6px; overflow-wrap:anywhere; }.qr-card b { font-family:'Cinzel',serif; font-size:12px; }.qr-card i,.qr-card small { font-size:10px; color:var(--herb-muted); }
+#plant-page-view .reveal-text { opacity:1; filter:none; transform:none; } #expanded-region-drawer { max-height:85vh; }
+@media(max-width:1023px) { .qr-grid { grid-template-columns:repeat(3,minmax(0,1fr)); } }
+@media(max-width:639px) { .qr-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } #expanded-region-drawer { position:relative; inset:auto; width:100%; max-height:70vh; margin-top:12px; } #map-view > div:nth-child(2) { flex-wrap:wrap; } }
+@media print { .qr-filters,.gallery-prev,.gallery-next { display:none; }.qr-card { break-inside:avoid; } }
+@media(prefers-reduced-motion:reduce) { *,*::before,*::after { animation:none !important; transition:none !important; scroll-behavior:auto !important; } }
+/* Captured reveal animations are static until a faithful motion implementation is supplied. */
+.reveal.is-visible { opacity:1; transform:none; filter:none; }
+#plant-page-view .reveal, #map-view .reveal, #qr-hub-view .reveal { animation:none; }
+.game { max-width:80rem; margin:auto; padding:16px; color:var(--herb-ink); }
+.game-top { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; margin-bottom:16px; }.game-top h1 { font-family:'Cinzel',serif; font-size:clamp(20px,3vw,30px); font-weight:700; }
+.game-back { color:var(--herb-green); font-weight:600; }
+.game-card { background:var(--herb-paper); border:1px solid var(--herb-line); border-radius:16px; padding:16px 20px; box-shadow:var(--herb-shadow); margin-bottom:16px; }
+.game-start p { margin-bottom:12px; } .game-start h2,.game-q h2 { font-family:'Cinzel',serif; font-size:22px; font-weight:700; }
+.game-q { display:flex; justify-content:space-between; align-items:center; gap:12px; position:sticky; top:8px; z-index:5; } .game-q small,.game-q i { color:var(--herb-muted); }
+.game-sizes,.game-stats { display:flex; flex-wrap:wrap; gap:10px; margin:12px 0; } .game-stats span { background:var(--herb-soft); padding:6px 12px; border-radius:12px; font-weight:600; }
+.game-btn { background:var(--herb-green); color:var(--herb-paper); padding:10px 18px; border-radius:12px; font-weight:700; } .game-btn:hover { filter:brightness(1.1); }
+.game-chip { background:var(--herb-soft); border:1px solid var(--herb-line); padding:8px 14px; border-radius:12px; font-weight:600; font-size:13px; }
+.game-map { background:var(--herb-soft); border:1px solid var(--herb-line); border-radius:16px; padding:8px; } .game-map svg { width:100%; height:auto; }
+.prov { fill:var(--herb-paper); stroke:var(--herb-line); stroke-width:1.2; cursor:pointer; transition:fill .25s; } .prov:hover { fill:var(--herb-warm); stroke:var(--herb-ink); }
+.p-green { fill:oklch(.68 .16 150) !important; } .p-yellow { fill:oklch(.85 .16 90) !important; } .p-red,.p-reveal { fill:oklch(.62 .2 27) !important; }
+.p-wrong { fill:oklch(.62 .2 27 / .35) !important; } .p-reveal { animation:game-pulse .5s 3; }
+@keyframes game-pulse { 50% { opacity:.4; } }
+.t-green { color:oklch(.5 .15 150); } .t-yellow { color:oklch(.6 .14 80); } .t-red { color:oklch(.55 .2 27); }
+.game-review { columns:2; font-size:13px; } .game-review li { padding:3px 8px; border-left:4px solid var(--herb-line); margin-bottom:4px; break-inside:avoid; }
+.r-green { border-color:oklch(.68 .16 150) !important; } .r-yellow { border-color:oklch(.85 .16 90) !important; } .r-red { border-color:oklch(.62 .2 27) !important; }
+.game-invite { display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap; margin:24px 0; padding:20px 24px; border-radius:20px; background:var(--herb-soft); border:1px solid var(--herb-line); color:var(--herb-ink); box-shadow:var(--herb-shadow); }
+.game-invite b { font-family:'Cinzel',serif; font-size:20px; display:block; } .game-invite small { color:var(--herb-muted); }

@@ -1,0 +1,163 @@
+[
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "region badge",
+    "expected": "Marmara drawer opens with 13 plants",
+    "observed": "Marmara drawer opens with 13 plants",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-drawer.png",
+    "previewArtifact": "preview-desktop-drawer.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "province card",
+    "expected": "\u0130stanbul filters to 5 plants",
+    "observed": "\u0130stanbul filters to 5 plants",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-plant.png",
+    "previewArtifact": "preview-desktop-plant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "drawer plant next step",
+    "expected": "\u0130stanbul Kardeleni detail opens",
+    "observed": "\u0130stanbul Kardeleni detail opens",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-plant.png",
+    "previewArtifact": "preview-desktop-plant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "QR navigation and filter",
+    "expected": "131 codes; Marmara filter has 13",
+    "observed": "131 codes; Marmara filter has 13",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-qr.png",
+    "previewArtifact": "preview-desktop-qr.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "search result next step",
+    "expected": "Kazda\u011f\u0131 search has 3 results; first opens Kazda\u011f\u0131 G\u00f6knar\u0131",
+    "observed": "Kazda\u011f\u0131 search has 3 results; first opens Kazda\u011f\u0131 G\u00f6knar\u0131",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-searchplant.png",
+    "previewArtifact": "preview-desktop-searchplant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "language",
+    "expected": "EN shows Kazda\u011f\u0131 Fir",
+    "observed": "EN shows Kazda\u011f\u0131 Fir",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-searchplant.png",
+    "previewArtifact": "preview-desktop-searchplant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "1280x1800",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "scroll to bottom",
+    "expected": "Footer reached with wheel and no horizontal overflow",
+    "observed": "Footer reached with wheel and no horizontal overflow",
+    "status": "passed",
+    "sourceArtifact": "source-desktop-bottom.png",
+    "previewArtifact": "preview-desktop-bottom.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "region badge",
+    "expected": "Marmara drawer opens with 13 plants",
+    "observed": "Marmara drawer opens with 13 plants",
+    "status": "passed",
+    "sourceArtifact": "source-phone-drawer.png",
+    "previewArtifact": "preview-phone-drawer.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "province card",
+    "expected": "\u0130stanbul filters to 5 plants",
+    "observed": "\u0130stanbul filters to 5 plants",
+    "status": "passed",
+    "sourceArtifact": "source-phone-plant.png",
+    "previewArtifact": "preview-phone-plant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "drawer plant next step",
+    "expected": "\u0130stanbul Kardeleni detail opens",
+    "observed": "\u0130stanbul Kardeleni detail opens",
+    "status": "passed",
+    "sourceArtifact": "source-phone-plant.png",
+    "previewArtifact": "preview-phone-plant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "QR navigation and filter",
+    "expected": "131 codes; Marmara filter has 13",
+    "observed": "131 codes; Marmara filter has 13",
+    "status": "passed",
+    "sourceArtifact": "source-phone-qr.png",
+    "previewArtifact": "preview-phone-qr.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "search result next step",
+    "expected": "Kazda\u011f\u0131 search has 3 results; first opens Kazda\u011f\u0131 G\u00f6knar\u0131",
+    "observed": "Kazda\u011f\u0131 search has 3 results; first opens Kazda\u011f\u0131 G\u00f6knar\u0131",
+    "status": "passed",
+    "sourceArtifact": "source-phone-searchplant.png",
+    "previewArtifact": "preview-phone-searchplant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "language",
+    "expected": "EN shows Kazda\u011f\u0131 Fir",
+    "observed": "EN shows Kazda\u011f\u0131 Fir",
+    "status": "passed",
+    "sourceArtifact": "source-phone-searchplant.png",
+    "previewArtifact": "preview-phone-searchplant.png"
+  },
+  {
+    "route": "/",
+    "viewport": "390x844",
+    "scrollContainer": "window / drawer overflow-y",
+    "trigger": "scroll to bottom",
+    "expected": "Footer reached with wheel and no horizontal overflow",
+    "observed": "Footer reached with wheel and no horizontal overflow",
+    "status": "passed",
+    "sourceArtifact": "source-phone-bottom.png",
+    "previewArtifact": "preview-phone-bottom.png"
+  },
+  {
+    "route": "/",
+    "viewport": "desktop and phone",
+    "trigger": "Remaining media and source motion",
+    "status": "partial",
+    "observed": "200 unavailable photo URLs; 138 downloaded. Gallery availability varies by plant. Map zoom snaps; source reveal/scroll is static; phone drawer placed in normal flow; floating pins/use categories/conservation bar incomplete. Print and copy commands wired but native dialogs not verified."
+  }
+]
